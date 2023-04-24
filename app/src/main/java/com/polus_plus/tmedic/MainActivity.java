@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 		ImageView iv = findViewById(R.id.imageView);
 		EditText et = findViewById(R.id.editTextText);
 		et.setText(Arrays.toString(getBytes(iv)));
+		showDialog();
 	}
 	
 	public void showDialog() {
